@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+   width: 100%;
+   height: 800px;
+   background-image: url(./img/main-background-img.png);
+   background-position: center;
+}
+.header{
+    width: 75%;
+    margin: auto;
+
+}
+.small_font{
+    font-weight: 200;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+}
+.logo_block{
+    display: flex;
+    align-items: center; 
+}
+.div_block_header{
+    display: flex;
+    margin-left: 90px;
+}
+.div_block_header a{
+    font-weight: 200;
+    font-size: 20px;
+    padding-right: 25px;
+}
+li{
+    list-style: none;
+}   
+li a{
+    text-decoration: none;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+.bold_header{
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 18px;
+}
+.button_login{
+    width: 124px;
+    height: 35px;
+    border-radius: 10px;
+    background: linear-gradient(to right bottom, #FFC301, #FF6533);
+    color: white;
+    padding: 12px 30px 12px 30px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.h1_text{
+    font-size: 48px;
+    line-height: 1.4;
+    color: white;
+    font-weight: 700;
+    width: 500px;
+}
+.main_header{
+    margin-top: 140px;
+}
+.header_cont{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between; 
+}
+.text_price{
+    font-size: 18px;
+    font-weight: 500; 
+    padding-top: 25px;
+    margin-bottom: 20px;
+}
+.block_header{ 
+    width: 255px;
+    height: 192px;
+    border-radius: 10px; 
+    background: linear-gradient(to right bottom,#00ACEE, #9CD2EE);
+    box-shadow: -20px -15px 4px 4px rgba(7, 7, 10, 0.2);
+    color: white;
+    margin-top: 15px;
+    font-weight: 300;
+}
+.block_flex_card{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.block2{
+    margin-top: 20px;
+}
+.texet2{
+    font-weight: 600;
+}
+.text_second{
+    width: 430px;
+    margin-top: 30px;
+    font-weight: 300;
+    line-height: 1.6;
+    font-size: 20px;
+    color: white;
+}
+.btn_header{
+    border: 1px solid #FF8E1E;
+    background-color: transparent;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 12px 40px 12px 40px;
+    border-radius: 10px;
+    margin-top: 45px;
+}
+.btn_header:hover{
+    background: linear-gradient(to right bottom, #FFC301, #FF6533);
+    color: white;
+}
+.pad_btn{
+    margin-left: 20px;
+}
+.padding{
+    padding-left: 30px;
+}
+.size_24{
+    font-size: 24px;
+    font-weight: 700;
+}
